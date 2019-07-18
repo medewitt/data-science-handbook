@@ -1,18 +1,69 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
-date: "`r Sys.Date()`"
+title: "Data Scientist's Handbook"
+author: 'Michael DeWitt'
+date: '`r Sys.Date()`'
+knit: bookdown::render_book
 site: bookdown::bookdown_site
-documentclass: book
-bibliography: [book.bib, packages.bib]
+documentclass: krantz
+bibliography: [refs.bib, packages.bib, book.bib]
 biblio-style: apalike
 link-citations: yes
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+colorlinks: yes
+graphics: yes
+lot: yes
+lof: yes
+fontsize: 11pt
+mainfont: Palatino
+monofont: "Source Code Pro"
+monofontoptions: "Scale=0.8"
+description: "The purpose of the book is to document common approaches for data science and causal inference techniques."
+#cover-image: images/cover.png
+url: 'michaeldewittjr.com'
 ---
 
-# Prerequisites
+```{r setup, include=FALSE, echo=TRUE}
+options(
+  htmltools.dir.version = FALSE, formatR.indent = 2,
+  width = 55, digits = 4, warnPartialMatchAttr = FALSE, 
+  warnPartialMatchDollar = FALSE
+)
+# options(bookdown.post.latex = function(x) {
+#   # only build a skeleton for the online version
+#   if (Sys.getenv('BOOKDOWN_FULL_PDF', '') == 'false') return(bookdown:::strip_latex_body(
+#     x, '\nThis PDF is only a skeleton. Please either read the free online HTML version, or purchase a hard-copy of this book.\n'
+#     ))
+#   # fix syntax highlighting:
+#   # \FunctionTok{tufte:}\AttributeTok{:tufte_html: default} ->
+#   # \FunctionTok{tufte::tufte_html:}\AttributeTok{ default}
+#   x = gsub('(\\\\FunctionTok\\{[^:]+:)(})(\\\\AttributeTok\\{)(:[^:]+:)', '\\1\\4\\2\\3', x)
+#   # an ugly hack for Table 16.1 (Pandoc's widths are not good)
+#   if (length(grep('0.47\\\\columnwidth', x)) == 0) stop('Table 16.1 not found')
+#   x = gsub('( & \\\\begin\\{minipage\\}\\[[tb]]\\{)0.47(\\\\columnwidth})', '\\10.65\\2', x)
+#   x = gsub('(^\\\\begin\\{minipage\\}\\[[tb]]\\{)0.47(\\\\columnwidth})', '\\10.33\\2', x)
+#   if (length(i <- grep('^\\\\begin\\{longtable\\}', x)) == 0) return(x)
+#   i1 = bookdown:::next_nearest(i, which(x == '\\toprule'))
+#   i2 = bookdown:::next_nearest(i, which(x == '\\endfirsthead'))
+#   x[i1 - 1] = paste0(x[i1 - 1], '\n\\begin{tabular}{', gsub('[^lcr]', '', gsub('.*\\[]', '', x[i])), '}')
+#   x[i] = '\\begin{table}'
+#   x[x == '\\end{longtable}'] = '\\end{tabular}\n\\end{table}'
+#   x[x == '\\endhead'] = ''
+#   x = x[-unlist(mapply(seq, i1, i2, SIMPLIFY = FALSE))]
+#   x
+# })
+# lapply(c('xfun'), function(pkg) {
+#   if (system.file(package = pkg) == '') install.packages(pkg)
+# })
+```
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
+# Preface {-}
+
+Here we go.
+
+## Welcome {-}
+
+This book is designed to be a living document.
+
+## Prerequisites {-}
 
 The **bookdown** package can be installed from CRAN or Github:
 
@@ -22,13 +73,26 @@ install.packages("bookdown")
 # devtools::install_github("rstudio/bookdown")
 ```
 
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
+## Our Tool Set {-}
 
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>.
+This shop primarily uses `R` and `SAS` in order to conduct Extract-Transform-Load functions, do data manipulation, visualization, and analysis. Additionally, we use `Power BI` for more advanced dashboarding features.
 
-```{r include=FALSE}
+```{r include = FALSE}
 # automatically create a bib database for R packages
 knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
+```
+
+
+## Software information and conventions {#software-info .unnumbered}
+
+The R session information when compiling this book is shown below:
+
+```{r tidy=FALSE}
+xfun::session_info(c(
+  'blogdown', 'bookdown', 'knitr', 'rmarkdown', 'htmltools',
+  'reticulate', 'rticles', 'flexdashboard', 'learnr', 'shiny',
+  'revealjs', 'pkgdown', 'tinytex', 'xaringan', 'tufte'
+), dependencies = FALSE)
 ```

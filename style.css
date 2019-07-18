@@ -12,3 +12,36 @@ pre {
 pre code {
   white-space: inherit;
 }
+
+.tip {
+    padding: 0.5em;
+    background-color: #dbfaf4;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.summaryblock{
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  color: #333E50;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #9E7E38;
+}
+
+.summaryblock > a {
+  color: #d8dfee;
+}
+
+.alertblock{
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  color: #333E50;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #F66733;
+}
+
+.alertblock > a {
+  color: #d8dfee;
+}

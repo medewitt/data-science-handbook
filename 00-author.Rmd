@@ -1,0 +1,7 @@
+# About the Authors {#author .unnumbered}
+
+This book is primarily put together by me (Michael DeWitt), documenting the lessons learned and knowledge gained over his years of experience in manufacturing and higher education.
+
+## Michael DeWitt {-}
+
+Michael DeWitt (<https://michaeldewittjr.com>) did some things and wrote some code.
