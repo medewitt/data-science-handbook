@@ -55,6 +55,14 @@ options(
 # })
 ```
 
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
 # Preface {-}
 
 Here we go.
@@ -72,6 +80,8 @@ install.packages("bookdown")
 # or the development version
 # devtools::install_github("rstudio/bookdown")
 ```
+
+## Outline {-}
 
 ## Our Tool Set {-}
 
