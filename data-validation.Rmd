@@ -1,0 +1,48 @@
+# Data Validation {#data-val}
+
+```{block, data-val-summary, type = "alertblock"}
+Data Validation is an important component in any analysis project. It is critical that you validate the data that you use for analysis. If you have erroneous values and do not adjust your analysis, you will get erroneous results.
+```
+
+## Introduction
+
+## Tools
+
+```{r}
+library(validate)
+library(tidyverse)
+```
+
+
+```{r}
+as_tibble(mtcars)
+```
+
+```{r valid-crit}
+validation_criteria <- validator(
+	mpg > 0,
+	cyl >0,
+	disp >0,
+	hp >0,
+	drat > 0,
+	wt >0,
+	qsec >0,
+	vs %in% c(0,1),
+	am %in% c(0,1),
+	is.integer(gear),
+	sum(is.na(.)) ==0
+)
+```
+
+
+Now we can challenge our data with our validation criteria.
+
+```{r}
+confrotation <- confront(mtcars,
+							 validation_criteria)
+```
+
+```{r}
+summary(confrotation)
+```
+

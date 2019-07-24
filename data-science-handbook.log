@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  17 JUL 2019 20:35
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  23 JUL 2019 20:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3493,12 +3493,111 @@ Overfull \hbox (336.25pt too wide) detected at line 421
  []
 
 Chapter 8.
-(./data-science-handbook.bbl
+Package mdframed Info: mdframed works in twoside mode on input line 423.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 423.
+
+Overfull \hbox (107.0214pt too wide) in paragraph at lines 445--445
+[]\TU/SourceCodePro(0)/m/n/11 ## -- Attaching packages ------------------------
+---------------- tidyverse 1.2.1 --[] 
+ []
+
+
+Overfull \hbox (107.0214pt too wide) in paragraph at lines 459--459
+[]\TU/SourceCodePro(0)/m/n/11 ## -- Conflicts ---------------------------------
+---------- tidyverse_conflicts() --[] 
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
 [15
+
+] [16] [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[18
+
+]
+Underfull \vbox (badness 10000) detected at line 546
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 546
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 546
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 546
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 546
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 546
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 546
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 546
+[]
+ []
+
+Chapter 9.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[19
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3537,7 +3636,173 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[16
+[20
+
+]
+Underfull \vbox (badness 10000) detected at line 549
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 549
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 549
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 549
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 549
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 549
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 549
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 549
+[]
+ []
+
+Chapter 10.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[21
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[22
+
+]
+Underfull \vbox (badness 10000) detected at line 554
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 554
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 554
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 554
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 554
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 554
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 554
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 554
+[]
+ []
+
+Chapter 11.
+(./data-science-handbook.bbl
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[23
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[24
 
 ]
 Underfull \vbox (badness 10000) detected at line 1
@@ -3585,7 +3850,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[17
+[25
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3624,23 +3889,23 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][] 
  []
 
-[18
+[26
 
 ] (./data-science-handbook.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 430.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 430.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 561.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 561.
 (./data-science-handbook.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 430.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 430.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 430.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 561.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 561.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 561.
  ) 
 Here is how much of TeX's memory you used:
- 27625 strings out of 493005
- 494978 string characters out of 6134596
- 726410 words of memory out of 5000000
- 31251 multiletter control sequences out of 15000+600000
+ 27634 strings out of 493005
+ 495094 string characters out of 6134596
+ 727617 words of memory out of 5000000
+ 31260 multiletter control sequences out of 15000+600000
  7308 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  61i,8n,117p,10430b,512s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on data-science-handbook.pdf (34 pages).
+Output written on data-science-handbook.pdf (42 pages).
